@@ -1,0 +1,167 @@
+* {
+  /* border: 1px solid orange; */
+  /* box-sizing: border-box; */
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0px;
+  background-color: rgb(16, 41, 73);
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(3, 3, 32);
+  border-radius: 6px;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  background-color: rgb(20, 25, 54);
+}
+
+nav {
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+main {
+  display: inline-block;
+  background-color: rgb(27, 57, 95);
+  border: 4px solid rgb(3, 3, 32);
+  border-radius: 6px;
+  padding: 10px;
+  margin-left: 50px;
+  max-width: 500px;
+  max-height: 1000px;
+}
+
+main h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  width: 96%;
+  text-align: center;
+  margin: 10px;
+}
+
+main h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  width: 96%;
+  text-align: center;
+  margin: 15px;
+}
+
+main h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 27px;
+  width: 96%;
+  margin: 10px;
+  text-align: center;
+}
+
+main p {
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  width: 96%;
+  margin: 10px;
+  text-align: center;
+}
+
+main ul li {
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  width: 96%;
+  margin: 10px;
+  text-align: center;
+}
+
+section {
+  display: inline-block;
+  background-color: rgb(27, 57, 95);
+  border: 4px solid rgb(3, 3, 32);
+  border-radius: 6px;
+  padding: 10px;
+  max-width: 500px;
+  max-height: 1000px;
+  height: 720px;
+  float: right;
+  margin-top: 0px;
+  margin-right: 50px;
+}
+
+section h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  width: 96%;
+  text-align: center;
+  margin: 10px;
+}
+
+section img {
+  padding-left: 23px;
+  padding-right: 23px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+figure {
+  display: inline-block;
+  background-color: rgb(27, 57, 95);
+  border: 4px solid rgb(3, 3, 32);
+  border-radius: 6px;
+  padding: 10px;
+  margin-left: 50px;
+  max-width: 500px;
+  max-height: 1000px;
+  float: right;
+  margin-top: 0px;
+  height: 680px;
+  margin-right: 50px;
+}
+
+figure img {
+  padding-left: 23px;
+  padding-right: 23px;
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+
+.container {
+  width: 94%;
+  margin: 0px auto;
+}
+.center {
+  margin: 0px auto;
+  display: block;
+  margin-top: 30px;
+}
+
+.padding {
+  margin: 9px;
+}
+
+.space {
+  padding-left: 45px;
+}
